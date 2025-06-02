@@ -1,0 +1,26 @@
+### Color Themes ###
+
+Darcula IntelliJ Theme
+Darcula PyCharm Theme
+Darcula python
+One Dark Pro Monokai Darker Theme
+Monokai++
+Kary Pro Colors
+Chromodynamics Theme
+Webstorm IntelliJ Darcula Theme
+Vim Theme
+Matrix Theme
+Launchbase Theme
+Pro hacker theme
+Dark hacker theme
+Dragan Color Theme
+GruvBox
+Gruvbox Glass
+merko's green theme
+Zone Green Mellow
+Ayu Dark
+Ayu Dark Lighter
+
+### Icons Themes ###
+
+vsc-jetbrains-icons-enhanced
