@@ -82,9 +82,9 @@ target/
 venv/
 ENV/
 
-# IDE (PyCharm & VSCode) project settings
+# IDEA (PyCharm & friends) project settings
 .idea/
-.vscode # Uncomment if you want to ignore VSCode settings
+# .vscode # Un-comment on real project!!!
 
 # mypy
 .mypy_cache/
@@ -98,3 +98,11 @@ logs/*
 # Pytest files
 report.html
 assets
+results/**
+
+# DataBase
+*.db
+*.sql
+
+# OS 
+.DS_Store
