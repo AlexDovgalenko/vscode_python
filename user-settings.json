@@ -4,17 +4,14 @@
     "window.zoomLevel": 1,
     "window.restoreWindows": "all",
     "files.exclude": {
-        ".git": true,
-        "**/.git": false
+        "**/__pycache__": true,
+        "**/.DS_Store": true,   // macOS
+        "**/.vscode": false,
+        "**/.idea": true,
+        "**/.pytest_cache": true,
+        "**/.git": true
     },
     "extensions.autoUpdate": "onlyEnabledExtensions",
-    // Python settings
-    "python.defaultInterpreterPath": "c:\\Program Files\\Python310\\python.exe",
-    "python.analysis.enableColorPicker":false,
-    "python.analysis.enableEditableInstalls": false,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.callArgumentNames": "partial",
-    "python.analysis.typeCheckingMode": "standard",
     // Git settings
     "git.autofetch": true,
     "git.confirmSync": false,
@@ -26,24 +23,22 @@
         "yaml": false
     },
     "github.copilot.nextEditSuggestions.enabled": true,
-    // Explorer settings
-    "explorer.excludeGitIgnore": true,
     "explorer.autoReveal": true,
     // Workbench settings
     "workbench.iconTheme": "vsc-jetbrains-icons-enhanced",
     "workbench.colorTheme": "Darcula Pycharm with Dark GUI",
     "workbench.startupEditor": "none",
     "workbench.editor.tabSizing": "shrink",
+    // "workbench.settings.editor": "json",
     // Editor settings
     "ruff.importStrategy": "useBundled",
     "editor.fontSize": 15,
-    "editor.defaultFormatter": null,
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnType": false,
+    "editor.formatOnSave":true,
     "editor.formatOnSaveMode": "modifications",
     "editor.codeActionsOnSave": {
-        "source.organizeImports": "always"
+        "source.organizeImports": "always",
         // "source.fixAll": "always"
     },
     "files.autoSave": "onFocusChange",
@@ -53,11 +48,8 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-        "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff"
-    },
-    "ruff.organizeImports": true,
     // Debug settings
+    // "debug.toolBarLocation": "docked",
     "debugpy.debugJustMyCode": false,
     // Terminal settings
     "terminal.integrated.tabs.enabled": true,
@@ -65,7 +57,15 @@
     "terminal.integrated.tabs.location": "right",
     "terminal.explorerKind": "external",
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // Python Analysis settings
+    "python.analysis.enableColorPicker":false,
+    "python.analysis.enableEditableInstalls": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "off",
+    "python.analysis.typeCheckingMode": "standard",
     // Markdown settings
     "markdown.preview.scrollEditorWithPreview": true,
-    "markdown.preview.scrollPreviewWithEditor": true
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "window.newWindowProfile": "Default",
+    "explorer.confirmDelete": false,
 }
