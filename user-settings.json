@@ -3,6 +3,8 @@
     "security.workspace.trust.untrustedFiles": "newWindow",
     "window.zoomLevel": 1,
     "window.restoreWindows": "all",
+    "window.openFoldersInNewWindow": "on",
+    "window.openFilesInNewWindow": "on",
     "files.exclude": {
         "**/__pycache__": true,
         "**/.DS_Store": true,   // macOS
